@@ -1,0 +1,57 @@
+.sliderCenter{display: flex; top:0; right: 0;}
+.sliderCenter .slider{width:100%; height:auto; overflow:hidden; margin-top: 15px; display:flex;}
+.sliderCenter .slider .img-box{width:100%; height: auto; display: flex;
+ justify-content:space-between; }
+
+.sliderCenter .slider .img-box img{width:70%; height: auto; position: relative;}
+
+.sliderCenter .slider .img-box .item1{background:#d89687 ;
+  color:white; width: 30%;}
+.sliderCenter .slider .img-box .item1 .sliderText{padding-top: 120px;
+text-align: left; padding-left: 30px;} 
+.sliderCenter .slider .img-box .item2{background:#f88b02 ;
+  color:white; width: 30%;}
+.sliderCenter .slider .img-box .item2 .sliderText{padding-top: 120px;
+text-align: left; padding-left: 30px;} 
+.sliderCenter .slider .img-box .item3{background:#1a2874 ;
+  color:white; width: 30%;}
+.sliderCenter .slider .img-box .item3 .sliderText{padding-top: 120px;
+text-align: left; padding-left: 30px;} 
+.sliderCenter .slider .img-box .item4{background:#582e37 ;
+  color:white; width: 30%;}
+.sliderCenter .slider .img-box .item4 .sliderText{padding-top: 120px;
+text-align: left; padding-left: 30px;} 
+.sliderCenter .slider .img-box .item5{background:#bfa690 ;
+  color:white; width: 30%;}
+.sliderCenter .slider .img-box .item5 .sliderText{padding-top: 120px;
+text-align: left; padding-left: 30px;} 
+.sliderCenter .slider .img-box .item6{background:#6bafac;
+  color:white; width: 30%;}
+.sliderCenter .slider .img-box .item6 .sliderText{padding-top: 120px;
+text-align: left; padding-left: 30px;} 
+
+
+/* navi style */
+.navi1{ color:white; z-index: 100; position: absolute;  display: flex; height: 30%; opacity: 0.33; top: 371px; right: 680px;} 
+.navi1 .prev1{font-size: 40px; padding:4px; position: absolute;         right:5px;}
+.navi1 .next1{font-size: 40px; padding:4px; position: absolute;
+  left:5px;}
+
+
+/* navi style */
+.navi2{ color:gray; z-index: 100; position: absolute;  display: flex; height: 30%; opacity: 0.33; top: 2614px;
+} 
+.navi2 .prev2{font-size: 40px; padding:3px; position: absolute; right:16px;}
+.navi2 .next2{font-size: 40px; padding:3px; position: absolute; 
+left:1000px;}
+
+/* scrollBtn */
+.scBt {position: absolute;}
+.scBt .topBtn{text-align: right; position: fixed; top: 762px;
+  right: 258px;}
+.scBt .topBtn .scrollBtn{border-radius: 99%; background: white; 
+border: 0.3px solid #ddd; opacity: 0.7;}
+.scBt .topBtn .scrollBtn .fa{color:#ddd; font-size:35px; padding:15px;}
+
+
+
