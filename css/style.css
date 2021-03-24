@@ -1,12 +1,24 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap");
 
 /* Header Style */
-header{width:100%; height:auto; text-align:center; padding: 20px 0;}
-header .headerWrap{display:flex; align-self: end;  }
-header .headerWrap .headerCenter{justify-content:space-between; display:flex;}
-header .headerWrap .leftHeader{display:flex; 
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px 0;
+}
+header .headerWrap {
+  display: flex;
+  align-self: end;
+}
+header .headerWrap .headerCenter {
+  justify-content: space-between;
+  display: flex;
+}
+header .headerWrap .leftHeader {
+  display: flex;
   border: none;
   background: transparent;
   outline: none;
@@ -15,26 +27,26 @@ header .headerWrap .leftHeader{display:flex;
   font-size: 18px;
   cursor: pointer;
   line-height: 58px;
-  
 }
 
-header .headerWrap .leftHeader .projectView{
+header .headerWrap .leftHeader .projectView {
   margin-right: 1em;
 }
 
-header .headerWrap .logo{
-border: none;
-background: transparent;
-outline: none;
-color: black;
-font-weight: bold;
-font-size: 22px;
-cursor: pointer;
-line-height: 58px;
-padding: 0px 2rem;
+header .headerWrap .logo {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 58px;
+  padding: 0px 2rem;
 }
 
-header .headerWrap .login{display: flex;
+header .headerWrap .login {
+  display: flex;
   border: none;
   background: transparent;
   outline: none;
@@ -43,102 +55,225 @@ header .headerWrap .login{display: flex;
   font-size: 18px;
   cursor: pointer;
   line-height: 58px;
-  _padding: 0px 2rem;}
+  _padding: 0px 2rem;
+}
 
-  header .headerWrap .login .search{font-size:28px;}
-  header .headerWrap .login .loginBtn{padding: 0px 1rem;}
-  header .headerWrap .login .userBtn{font-size: 28px;}
+header .headerWrap .login .search {
+  font-size: 28px;
+}
+header .headerWrap .login .loginBtn {
+  padding: 0px 1rem;
+}
+header .headerWrap .login .userBtn {
+  font-size: 28px;
+}
 /* end of headstyle */
 
 /* heart style */
-.projectCenter .project .prjBox .heart{ position: relative; font-size: 20px;  display: inline-block; z-index: 9; top:30px; float: right; left:-10px;}
-.projectCenter .project .prjBox .heart .fa{color:#fff;}
-.projectCenter .project .prjBox .heart .fa:hover{color:red;}
+.projectCenter .project .prjBox .heart {
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  z-index: 9;
+  top: 30px;
+  float: right;
+  left: -10px;
+}
+.projectCenter .project .prjBox .heart .fa {
+  color: #fff;
+}
+.projectCenter .project .prjBox .heart .fa:hover {
+  color: red;
+}
 
 /* project style */
-  
-.projectCenter .prjTit {font-size:25px; margin-top: 90px; font-weight: 700;}
-.projectCenter .prjTit .fa{font-size:30px; color:#ddd;}
-.projectCenter .project{display:flex; flex-wrap: wrap; justify-content: space-between; margin-bottom: 100px; }
-.projectCenter .project .prjBox{width:23.5%; margin-top: 2%; border-radius: 4px;}
-.projectCenter .project .prjImg img{overflow: hidden; position: relative;width:100%;  }
-.projectCenter .project .prjBox p{color: gray; word-spacing:1.5px; margin-top: 18px;font-size:12px;}
-.projectCenter .project .prjBox h3{ margin-top: 20px;}
-.projectCenter .project .prjBox h4{ color:red; margin-top: 20px;
-  margin-top: 20px;}
 
-  /* progress style */
-.projectCenter .progress{display:flex; justify-content: space-between; margin-top:35px;}
-.projectCenter .progress .progressBox{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition-property: transform;
-    box-sizing: content-box;
-    margin-left: auto;}
-.projectCenter .progress .progressBox .progressImg{padding-right: 20px;
- padding-bottom: 20px;}
-.projectCenter .progress .progressBox .progressImg img{
- width:320px; height: auto;}
-.projectCenter .progress .progressBox h3{padding-bottom: 10px;}
-.projectCenter .progress .progressBox h4 span{color:red;         padding-right: 10px;} 
+.projectCenter .prjTit {
+  font-size: 25px;
+  margin-top: 90px;
+  font-weight: 700;
+}
+.projectCenter .prjTit .fa {
+  font-size: 30px;
+  color: #ddd;
+}
+.projectCenter .project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.projectCenter .project .prjBox {
+  width: 23.5%;
+  margin-top: 2%;
+  border-radius: 4px;
+}
+.projectCenter .project .prjImg img {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.projectCenter .project .prjBox p {
+  color: gray;
+  word-spacing: 1.5px;
+  margin-top: 18px;
+  font-size: 12px;
+}
+.projectCenter .project .prjBox h3 {
+  margin-top: 20px;
+}
+.projectCenter .project .prjBox h4 {
+  color: red;
+  margin-top: 20px;
+  margin-top: 20px;
+}
 
-     /* button style */
-.projectCenter .loadmoreBtn{ margin-bottom: 88px;text-align: center;}
-.projectCenter .loadmoreBtn .loadMore{color:black; font-size:16px;
-border-radius: 25px; padding: 15px; background: white;
- border: 1.5px solid #ddd;}
+/* progress style */
+.projectCenter .progress {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.projectCenter .progress .progressBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition-property: transform;
+  box-sizing: content-box;
+  margin-left: auto;
+}
+.projectCenter .progress .progressBox .progressImg {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.projectCenter .progress .progressBox .progressImg img {
+  width: 320px;
+  height: auto;
+}
+.projectCenter .progress .progressBox h3 {
+  padding-bottom: 10px;
+}
+.projectCenter .progress .progressBox h4 span {
+  color: red;
+  padding-right: 10px;
+}
 
+/* button style */
+.projectCenter .loadmoreBtn {
+  margin-bottom: 88px;
+  text-align: center;
+}
+.projectCenter .loadmoreBtn .loadMore {
+  color: black;
+  font-size: 16px;
+  border-radius: 25px;
+  padding: 15px;
+  background: white;
+  border: 1.5px solid #ddd;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Footer Style */
-.footerTop{margin-top:100px; margin-bottom: 50px;  text-align: center;
-  padding:30px; color:white; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b7deed+0,21b4e2+11,21b4e2+11,71ceef+16,21b4e2+24,21b4e2+24,21b4e2+26,21b4e2+33,21b4e2+40,b7deed+55,b7deed+66,b7deed+70,21b4e2+83,b7deed+100 */
-  background: rgb(183,222,237); /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  rgba(183,222,237,1) 0%, rgba(33,180,226,1) 11%, rgba(33,180,226,1) 11%, rgba(113,206,239,1) 16%, rgba(33,180,226,1) 24%, rgba(33,180,226,1) 24%, rgba(33,180,226,1) 26%, rgba(33,180,226,1) 33%, rgba(33,180,226,1) 40%, rgba(183,222,237,1) 55%, rgba(183,222,237,1) 66%, rgba(183,222,237,1) 70%, rgba(33,180,226,1) 83%, rgba(183,222,237,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,  rgba(183,222,237,1) 0%,rgba(33,180,226,1) 11%,rgba(33,180,226,1) 11%,rgba(113,206,239,1) 16%,rgba(33,180,226,1) 24%,rgba(33,180,226,1) 24%,rgba(33,180,226,1) 26%,rgba(33,180,226,1) 33%,rgba(33,180,226,1) 40%,rgba(183,222,237,1) 55%,rgba(183,222,237,1) 66%,rgba(183,222,237,1) 70%,rgba(33,180,226,1) 83%,rgba(183,222,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  rgba(183,222,237,1) 0%,rgba(33,180,226,1) 11%,rgba(33,180,226,1) 11%,rgba(113,206,239,1) 16%,rgba(33,180,226,1) 24%,rgba(33,180,226,1) 24%,rgba(33,180,226,1) 26%,rgba(33,180,226,1) 33%,rgba(33,180,226,1) 40%,rgba(183,222,237,1) 55%,rgba(183,222,237,1) 66%,rgba(183,222,237,1) 70%,rgba(33,180,226,1) 83%,rgba(183,222,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/* Footer Style */
+.footerTop {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 30px;
+  color: white; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b7deed+0,21b4e2+11,21b4e2+11,71ceef+16,21b4e2+24,21b4e2+24,21b4e2+26,21b4e2+33,21b4e2+40,b7deed+55,b7deed+66,b7deed+70,21b4e2+83,b7deed+100 */
+  background: rgb(183, 222, 237); /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 11%,
+    rgba(33, 180, 226, 1) 11%,
+    rgba(113, 206, 239, 1) 16%,
+    rgba(33, 180, 226, 1) 24%,
+    rgba(33, 180, 226, 1) 24%,
+    rgba(33, 180, 226, 1) 26%,
+    rgba(33, 180, 226, 1) 33%,
+    rgba(33, 180, 226, 1) 40%,
+    rgba(183, 222, 237, 1) 55%,
+    rgba(183, 222, 237, 1) 66%,
+    rgba(183, 222, 237, 1) 70%,
+    rgba(33, 180, 226, 1) 83%,
+    rgba(183, 222, 237, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 11%,
+    rgba(33, 180, 226, 1) 11%,
+    rgba(113, 206, 239, 1) 16%,
+    rgba(33, 180, 226, 1) 24%,
+    rgba(33, 180, 226, 1) 24%,
+    rgba(33, 180, 226, 1) 26%,
+    rgba(33, 180, 226, 1) 33%,
+    rgba(33, 180, 226, 1) 40%,
+    rgba(183, 222, 237, 1) 55%,
+    rgba(183, 222, 237, 1) 66%,
+    rgba(183, 222, 237, 1) 70%,
+    rgba(33, 180, 226, 1) 83%,
+    rgba(183, 222, 237, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 11%,
+    rgba(33, 180, 226, 1) 11%,
+    rgba(113, 206, 239, 1) 16%,
+    rgba(33, 180, 226, 1) 24%,
+    rgba(33, 180, 226, 1) 24%,
+    rgba(33, 180, 226, 1) 26%,
+    rgba(33, 180, 226, 1) 33%,
+    rgba(33, 180, 226, 1) 40%,
+    rgba(183, 222, 237, 1) 55%,
+    rgba(183, 222, 237, 1) 66%,
+    rgba(183, 222, 237, 1) 70%,
+    rgba(33, 180, 226, 1) 83%,
+    rgba(183, 222, 237, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  
 }
 
-.footerMiddle{display:flex; justify-content: space-between;}
-
-.footerMiddle .leftNav{padding:30px; font-size:15px; font-weight: bold; display: flex;}
-.footerMiddle .leftNav .firstNav{padding:10px;}
-.footerMiddle .leftNav .secondNav{padding:10px;}
-
-
-.footerMiddle .rightNav{padding:30px;
+.footerMiddle {
+  display: flex;
+  justify-content: space-between;
 }
 
-.footerMiddle .rightNav .sns{padding: 10px; font-size:20px;}
-.footerMiddle .rightNav .qna{font-size:13px; font-weight: bold;
-  padding:10px; float:right; background-color: white;}
+.footerMiddle .leftNav {
+  padding: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+}
+.footerMiddle .leftNav .firstNav {
+  padding: 10px;
+}
+.footerMiddle .leftNav .secondNav {
+  padding: 10px;
+}
 
+.footerMiddle .rightNav {
+  padding: 30px;
+}
 
+.footerMiddle .rightNav .sns {
+  padding: 10px;
+  font-size: 20px;
+}
+.footerMiddle .rightNav .qna {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+  float: right;
+  background-color: white;
+}
 
-
-
-.footerBottom{padding:30px; margin-bottom: 50px; color:gray;}
-.footerBottom .inc{float: right;}
-
+.footerBottom {
+  padding: 30px;
+  margin-bottom: 50px;
+  color: gray;
+}
+.footerBottom .inc {
+  float: right;
+}

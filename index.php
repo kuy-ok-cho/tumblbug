@@ -9,6 +9,10 @@
 
     <!-- font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+    />
 
     <!-- CSS Style Link -->
     <link rel="stylesheet" href="css/reset.css" />
@@ -39,7 +43,144 @@
       </div>
 
         <div class="center sliderCenter">
-             <div class="navi1">
+
+        <div class="main-content">
+
+<div class="recipe-wrapper">
+
+  <div class="navigation">
+    <i class="js-navigate js-left disabled icon-arrow-left-circle icons">
+    </i>
+    <i class="js-navigate js-right icon-arrow-right-circle icons">   
+    </i>
+  </div>
+
+  <div class="recipe-image">
+
+    <div class="recipe active">
+      <img
+        class="pie-photo"
+        src="img/slider1.jpg"
+      />
+    </div>
+
+    <div class="recipe">
+      <img
+        class="pie-photo"
+        src="img/slider2.jpg"
+      />
+    </div>
+
+    <div class="recipe">
+      <img
+        class="pie-photo"
+        src="img/slider3.jpg"
+      />
+    </div>
+
+    <div class="recipe">
+      <img
+        class="pie-photo"
+        src="img/slider4.jpg"
+      />
+    </div>
+
+    <div class="recipe">
+      <img
+        class="pie-photo"
+        src="img/slider5.jpg"
+      />
+    </div>
+
+  </div>
+
+  <div class="recipe-content">
+
+    <div class="recipe active blue">
+      <div class="recipe-page">1/5</div>
+      <div class="recipe-content-inner">
+        <h1 class="pie-name">Gold</h1>
+        <div class="pie-serving">
+          <svg x="0px" y="0px" viewBox="0 0 463 463">
+          </svg>
+          <p>Makes one 9½-inch pie</p>
+        </div>
+        <div class="pie-context">
+          Coffee cream pie. This one’ll give you extra reason to get out
+          of bed in the morning.
+        </div>
+        <div class="pie-cta">See recipe</div>
+      </div>
+    </div>
+
+    <div class="recipe">
+      <div class="recipe-page">2/5</div>
+      <div class="recipe-content-inner">
+        <h1 class="pie-name">Tumblbug</h1>
+        <div class="pie-serving">
+          <svg x="0px" y="0px" viewBox="0 0 463 463"></svg>
+          <p>Site Renewal</p>
+        </div>
+        <div class="pie-context">
+          Rocky road macadamia mousse pies with white chocolate chips.
+        </div>
+        <div class="pie-cta">See recipe</div>
+      </div>
+    </div>
+    
+    <div class="recipe orange">
+      <div class="recipe-page">3/5</div>
+      <div class="recipe-content-inner">
+        <h1 class="pie-name">Movie Api</h1>
+        <div class="pie-serving">
+          <svg x="0px" y="0px" viewBox="0 0 463 463">
+            <g></g>
+          </svg>
+          <p>Movie Search</p>
+        </div>
+        <div class="pie-context">
+          Polka-Dot Peach Pie, bursting with sugar and sunshine.
+        </div>
+        <div class="pie-cta">See recipe</div>
+      </div>
+    </div>
+
+    <div class="recipe brown">
+      <div class="recipe-page">4/5</div>
+      <div class="recipe-content-inner">
+        <h1 class="pie-name">My Schdule</h1>
+        <div class="pie-serving">
+          <svg x="0px" y="0px" viewBox="0 0 463 463"></svg>
+          <p>Schdule</p>
+        </div>
+        <div class="pie-context">
+          Lemon meringue pie. When life gives you lemons, bake them up in
+          a pie.
+        </div>
+        <div class="pie-cta">See recipe</div>
+      </div>
+    </div>
+
+    <div class="recipe green">
+      <div class="recipe-page">5/5</div>
+      <div class="recipe-content-inner">
+        <h1 class="pie-name">Lansun Traveler</h1>
+        <div class="pie-serving">
+          <svg x="0px" y="0px" viewBox="0 0 463 463"></svg>
+          <p>Makes one 9½-inch pie</p>
+        </div>
+        <div class="pie-context">
+          Key lime pie, with a taste of tequila for extra happiness.
+        </div>
+        <div class="pie-cta"
+        onclick ="window.open('https://docs.google.com/presentation/d/1mZflPoUpEV3YhOstNJnXt2Ntfr4oiGn6sst8fZmEdrU/edit#slide=id.gc8ca24c2d6_0_345')">
+            See recipe</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+             <!-- <div class="navi1">
                 <div class="prev1">
                   <i class='fa fa-chevron-circle-left'></i>
                 </div>
@@ -47,11 +188,11 @@
                 <div class="next1">
                   <i class='fa fa-chevron-circle-right'></i>
                 </div>
-              </div>
+              </div> -->
               <!-- end of navi1 -->
               
-              <div></div>
-
+              <!-- <div></div> -->
+<!-- 
               <div class="slider">
 
                 <div class="img-box">
@@ -115,7 +256,7 @@
                   </div>
                 </div>
 
-              </div> 
+              </div>  -->
               <!-- end of slider -->
         </div>
       <!-- end of slider center -->
