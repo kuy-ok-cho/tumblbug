@@ -7,30 +7,31 @@
 //   prevArrow: $(".prev1"),
 // });
 
-// $(".progress").slick({
-//   slidesToShow: 3,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 2000,
-//   nextArrow: $(".next2"),
-//   prevArrow: $(".prev2"),
-// });
+$(".progress").slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  nextArrow: $(".next2"),
+  prevArrow: $(".prev2"),
+});
 
-// $(".topBtn").click(function () {
-//   $("html, body").animate({ scrollTop: 0 }, 400);
-//   return false;
-// });
+$(".topBtn").click(function () {
+  $("html, body").animate({ scrollTop: 0 }, 400);
+  return false;
+});
 
-// $(window).scroll(function () {
-//   let scroll = $(this).scrollTop();
+$(window).scroll(function () {
+  let scroll = $(this).scrollTop();
 
-//   if (scroll < 200) {
-//     $(".topBtn").hide();
-//   } else {
-//     $(".topBtn").show();
-//   }
-// });
+  if (scroll < 200) {
+    $(".topBtn").hide();
+  } else {
+    $(".topBtn").show();
+  }
+});
 
+// main-slider
 $(".js-navigate").on("click", function () {
   $(".js-navigate").removeClass("disabled");
   var current = $(".recipe.active");
@@ -58,3 +59,8 @@ function checkForDisable() {
     $(".js-left").addClass("disabled");
   }
 }
+
+// $(".recipe.active").slick({
+//   autoplay: true,
+//   autoplaySpeed: 4500,
+// });

@@ -88,93 +88,86 @@
     <div class="recipe">
       <img
         class="pie-photo"
-        src="img/slider5.jpg"
+        src="img/slider5.png"
+      />
+    </div>
+
+    <div class="recipe">
+      <img
+        class="pie-photo"
+        src="img/slider6.png"
       />
     </div>
 
   </div>
 
   <div class="recipe-content">
-
-    <div class="recipe active blue">
-      <div class="recipe-page">1/5</div>
-      <div class="recipe-content-inner">
-        <h1 class="pie-name">Gold</h1>
-        <div class="pie-serving">
-          <svg x="0px" y="0px" viewBox="0 0 463 463">
-          </svg>
-          <p>Makes one 9½-inch pie</p>
-        </div>
+      
+    <div class="recipe active">
+      <div class="recipe-page">1 / 6</div>
+      <div class="recipe-content-inner" style="background:#d89687">
+        <h1 class="pie-name">
+          차분히 <br> 기다리면
+        </h1>
         <div class="pie-context">
-          Coffee cream pie. This one’ll give you extra reason to get out
-          of bed in the morning.
+         3개월 이상 소요 되는 장기 프로젝트
         </div>
-        <div class="pie-cta">See recipe</div>
       </div>
     </div>
 
     <div class="recipe">
-      <div class="recipe-page">2/5</div>
-      <div class="recipe-content-inner">
-        <h1 class="pie-name">Tumblbug</h1>
-        <div class="pie-serving">
-          <svg x="0px" y="0px" viewBox="0 0 463 463"></svg>
-          <p>Site Renewal</p>
-        </div>
+      <div class="recipe-page ">2 / 6</div>
+      <div class="recipe-content-inner"
+      style="background:#f88b02">
+        <h1 class="pie-name">수납에 </br>색을 더해요</h1>
         <div class="pie-context">
-          Rocky road macadamia mousse pies with white chocolate chips.
+        다양한 연출이 가능한</br>매거진 맥 Rayon
         </div>
-        <div class="pie-cta">See recipe</div>
       </div>
     </div>
     
-    <div class="recipe orange">
-      <div class="recipe-page">3/5</div>
-      <div class="recipe-content-inner">
-        <h1 class="pie-name">Movie Api</h1>
-        <div class="pie-serving">
-          <svg x="0px" y="0px" viewBox="0 0 463 463">
-            <g></g>
-          </svg>
-          <p>Movie Search</p>
-        </div>
+    <div class="recipe">
+      <div class="recipe-page">3 / 6</div>
+      <div class="recipe-content-inner"
+      style="background:#1a2874">
+        <h1 class="pie-name">비대면 방탈출 </br>물오름달 열닷새</h1>
         <div class="pie-context">
-          Polka-Dot Peach Pie, bursting with sugar and sunshine.
+        경주의 숨은 명소를 찾아 </br>
+                    시간여행을 떠나자
         </div>
-        <div class="pie-cta">See recipe</div>
       </div>
     </div>
 
-    <div class="recipe brown">
-      <div class="recipe-page">4/5</div>
-      <div class="recipe-content-inner">
-        <h1 class="pie-name">My Schdule</h1>
-        <div class="pie-serving">
-          <svg x="0px" y="0px" viewBox="0 0 463 463"></svg>
-          <p>Schdule</p>
-        </div>
+    <div class="recipe">
+      <div class="recipe-page">4 / 6</div>
+      <div class="recipe-content-inner"
+      style="background:#582e37">
+        <h1 class="pie-name">모험의 배경은 </br>익명의 sns</h1>
         <div class="pie-context">
-          Lemon meringue pie. When life gives you lemons, bake them up in
-          a pie.
+        인플루언서 사이에</br>사건의 실마리가 있다
         </div>
-        <div class="pie-cta">See recipe</div>
       </div>
     </div>
 
-    <div class="recipe green">
-      <div class="recipe-page">5/5</div>
-      <div class="recipe-content-inner">
-        <h1 class="pie-name">Lansun Traveler</h1>
-        <div class="pie-serving">
-          <svg x="0px" y="0px" viewBox="0 0 463 463"></svg>
-          <p>Makes one 9½-inch pie</p>
-        </div>
+    <div class="recipe">
+      <div class="recipe-page">5 / 6</div>
+      <div class="recipe-content-inner"
+      style="background:#bfa690">
+        <h1 class="pie-name">여행을</br>소장하는 방법</h1>
         <div class="pie-context">
-          Key lime pie, with a taste of tequila for extra happiness.
+        떠나지 않고도 여행지를</br>가까이 하는 아이디어들
         </div>
-        <div class="pie-cta"
-        onclick ="window.open('https://docs.google.com/presentation/d/1mZflPoUpEV3YhOstNJnXt2Ntfr4oiGn6sst8fZmEdrU/edit#slide=id.gc8ca24c2d6_0_345')">
-            See recipe</div>
+      </div>
+    </div>
+
+    <div class="recipe">
+      <div class="recipe-page">6 / 6</div>
+      <div class="recipe-content-inner"
+      style="background:#6bafac">
+        <h1 class="pie-name">플라스틱을 덜어내는</br>새로운 제작시도를</h1>
+        <div class="pie-context">
+        창작자를 위한 실험실</br>CLAP 3기 '플라스틱
+        </div>
       </div>
     </div>
 

@@ -1,83 +1,3 @@
-/* .sliderCenter{display: flex; top:0; right: 0;}
-.sliderCenter .slider{width:100%; height:auto; overflow:hidden; margin-top: 15px; display:flex;}
-.sliderCenter .slider .img-box{width:100%; height: auto; display: flex;
- justify-content:space-between; }
-
-.sliderCenter .slider .img-box img{width:70%; height: auto; position: relative;}
-
-.sliderCenter .slider .img-box .item1{background:#d89687 ;
-  color:white; width: 30%;}
-.sliderCenter .slider .img-box .item1 .sliderText{padding-top: 120px;
-text-align: left; padding-left: 30px;} 
-.sliderCenter .slider .img-box .item2{background:#f88b02 ;
-  color:white; width: 30%;}
-.sliderCenter .slider .img-box .item2 .sliderText{padding-top: 120px;
-text-align: left; padding-left: 30px;} 
-.sliderCenter .slider .img-box .item3{background:#1a2874 ;
-  color:white; width: 30%;}
-.sliderCenter .slider .img-box .item3 .sliderText{padding-top: 120px;
-text-align: left; padding-left: 30px;} 
-.sliderCenter .slider .img-box .item4{background:#582e37 ;
-  color:white; width: 30%;}
-.sliderCenter .slider .img-box .item4 .sliderText{padding-top: 120px;
-text-align: left; padding-left: 30px;} 
-.sliderCenter .slider .img-box .item5{background:#bfa690 ;
-  color:white; width: 30%;}
-.sliderCenter .slider .img-box .item5 .sliderText{padding-top: 120px;
-text-align: left; padding-left: 30px;} 
-.sliderCenter .slider .img-box .item6{background:#6bafac;
-  color:white; width: 30%;}
-.sliderCenter .slider .img-box .item6 .sliderText{padding-top: 120px;
-text-align: left; padding-left: 30px;} 
-
-
-/* navi style */
-/* .navi1 {
-  color: white;
-  z-index: 100;
-  position: absolute;
-  display: flex;
-  height: 30%;
-  opacity: 0.33;
-  top: 371px;
-  right: 680px;
-}
-.navi1 .prev1 {
-  font-size: 40px;
-  padding: 4px;
-  position: absolute;
-  right: 5px;
-}
-.navi1 .next1 {
-  font-size: 40px;
-  padding: 4px;
-  position: absolute;
-  left: 5px;
-}
-
-/* navi style */
-/* .navi2 {
-  color: gray;
-  z-index: 100;
-  position: absolute;
-  display: flex;
-  height: 30%;
-  opacity: 0.33;
-  top: 2614px;
-}
-.navi2 .prev2 {
-  font-size: 40px;
-  padding: 3px;
-  position: absolute;
-  right: 16px;
-}
-.navi2 .next2 {
-  font-size: 40px;
-  padding: 3px;
-  position: absolute;
-  left: 1000px;
-}
-
 /* scrollBtn */
 .scBt {
   position: absolute;
@@ -102,41 +22,13 @@ text-align: left; padding-left: 30px;}
 
 .main-content {
   max-width: 1000px;
-  margin: 3em auto 3em;
+  /* margin: 3em auto 3em; */
   position: relative;
-  padding: 3em;
+  /* padding: 3em; */
 }
 
 :root {
-  --color: coral;
-}
-
-.blue {
-  --color: #ce9f1d;
-}
-
-.yellow {
-  --color: #edae49;
-}
-
-.orange {
-  --color: #f165df;
-}
-
-.green {
-  --color: #3b1f0e;
-}
-
-.brown {
-  --color: #3f0e68;
-}
-
-.red {
-  --color: #e3655b;
-}
-
-.pink {
-  --color: #ec318c;
+  --color: white;
 }
 
 .recipe-wrapper {
@@ -145,7 +37,9 @@ text-align: left; padding-left: 30px;}
   background: #fff;
   box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
   align-self: stretch;
-  margin: 6%;
+  margin-top: 3%;
+  width: 1200px;
+  height: 500px;
 }
 .recipe-wrapper .recipe-image {
   flex: 11;
@@ -172,14 +66,17 @@ text-align: left; padding-left: 30px;}
 }
 .recipe-wrapper .navigation {
   position: absolute;
-  right: 35px;
-  top: 102px;
-  font-size: 30px;
+  right: 10%;
+  bottom: 10%;
+  font-size: 48px;
   text-align: center;
-  color: #aaa;
+  color: #eee;
+  z-index: 100;
+  display: flex;
 }
+
 .recipe-wrapper .navigation i {
-  margin: 8px;
+  margin: 12px;
   display: block;
   opacity: 0.6;
   cursor: pointer;
@@ -192,13 +89,17 @@ text-align: left; padding-left: 30px;}
   pointer-events: none;
 }
 .recipe-wrapper .recipe-page {
-  font: 400 28px "Playfair Display", cursive;
+  font: 400 28px "Playfair Display";
   position: absolute;
-  top: 10px;
-  right: 20px;
-  color: #999;
+  bottom: 14%;
+  right: 39%;
+  color: white;
   opacity: 0;
   transition: all 600ms cubic-bezier(1, 0, 0, 1);
+  z-index: 9999;
+  border: 1px solid white;
+  border-radius: 28%;
+  padding: 0.8% 2%;
 }
 .recipe-wrapper .recipe-content-inner {
   transition: all 600ms cubic-bezier(1, 0, 0, 1);
@@ -207,25 +108,34 @@ text-align: left; padding-left: 30px;}
   left: 0;
   margin: 0 10%;
   right: 0;
+  width: 500px;
+  height: 500px;
 }
 
 .recipe.active .recipe-page {
-  opacity: 1;
+  opacity: 0.8;
 }
 .recipe.active .pie-photo {
-  bottom: -5%;
+  bottom: 0;
 }
 .recipe.active .recipe-content-inner {
-  top: 12%;
+  top: 0;
+  left: -10%;
+  width: 550px;
+  height: 550px;
 }
 
 .pie-name {
   font: 900 35px Raleway;
   text-transform: uppercase;
-  margin: 0 0 5px;
-  letter-spacing: 2px;
+  margin: 25% 10% 0;
+  /* left: -4%; */
+  font-size: 43px;
+  letter-spacing: 3px;
+  line-height: 67px;
   color: var(--color);
   position: relative;
+  text-align: left;
 }
 .pie-name:before {
   content: "";
@@ -233,9 +143,10 @@ text-align: left; padding-left: 30px;}
 }
 
 .pie-context {
-  font: 400 18px/1.3 "Raleway";
-  color: #999;
-  margin: 40px 20px;
+  font: 401 24px/1.3 "Raleway";
+  color: white;
+  margin: 3% 10%;
+  text-align: left;
 }
 
 .pie-serving {
@@ -245,35 +156,6 @@ text-align: left; padding-left: 30px;}
   border-width: 0.5px 0;
   margin: 20px auto;
   max-width: 300px;
-}
-.pie-serving svg {
-  width: 0;
-}
-.pie-serving svg path {
-  fill: var(--color);
-}
-.pie-serving p {
-  display: inline-block;
-  vertical-align: top;
-  margin: 12px 6px 6px;
-}
-
-.pie-cta {
-  display: block;
-  padding: 15px;
-  border-radius: 40px;
-  background: var(--color);
-  max-width: 180px;
-  font-size: 20px;
-  color: #fff;
-  position: relative;
-  margin: auto;
-  top: 0;
-  transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
-}
-.pie-cta:hover {
-  top: -5px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 aside.context {
@@ -327,3 +209,28 @@ aside.context .explanation {
 
 }
 */
+
+/* sub-slider */
+
+/* navi style */
+.navi2 {
+  color: gray;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  height: 30%;
+  opacity: 0.33;
+  top: 2614px;
+}
+.navi2 .prev2 {
+  font-size: 40px;
+  padding: 3px;
+  position: absolute;
+  right: 16px;
+}
+.navi2 .next2 {
+  font-size: 40px;
+  padding: 3px;
+  position: absolute;
+  left: 1000px;
+}
